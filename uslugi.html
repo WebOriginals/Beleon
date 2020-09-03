@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<html lang="ru" class="html-sth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Beleon Tours</title>
+    <!-- <link rel="icon" href="img/favicon.png"> -->
+    <!-- <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png"> -->
+    <!-- <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png"> -->
+    <!-- <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png"> -->
+    <!-- <link rel="manifest" href="img/favicon/site.webmanifest"> -->
+    <!-- <link rel="mask-icon" href="img/favicon/safari-pinned-tab.svg" color="#5bbad5"> -->
+    <!-- <meta name="msapplication-TileColor" content="#ffffff"> -->
+    <!-- <meta name="msapplication-TileImage" content="img/favicon/mstile-144x144.png"> -->
+    <!-- <meta name="theme-color" content="#ffffff">  -->
+    <!-- <link rel="icon" href="img/favicon.png"> -->
+	<!-- <link rel="apple-touch-icon" sizes="57x57" href="img/favicons/apple-touch-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="img/favicons/apple-touch-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/favicons/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="img/favicons/apple-touch-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/favicons/apple-touch-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="img/favicons/apple-touch-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="img/favicons/apple-touch-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="img/favicons/apple-touch-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-touch-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="img/favicons/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="img/favicons/favicon-16x16.png">
+	<link rel="manifest" href="img/favicons/manifest.json">
+	<link rel="mask-icon" href="img/favicons/safari-pinned-tab.svg" color="#ea524e">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="img/favicons/mstile-144x144.png">
+	<meta name="theme-color" content="#ffffff"> -->
+	
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/font.css"/>
+    <!-- <link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.min.css" /> -->
+    <link rel="stylesheet" type="text/css" href="swiper/swiper.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-grid-float.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="css/media.css"/>
+    <link rel="stylesheet" type="text/css" href="css/dg.css"/>
+    <!--[if lte IE 9]>
+        <script src="js/ie9/html5shiv.min.js"></script>
+        <script src="js/ie9/respond.min.js"></script>
+    <![endif]-->   
+</head>
+<body> 
+
+
+<!-- <div class="abc" style="background-color: #3300aa;background-color: #ffe4c4; height: 30px;"></div> -->
+<div class="header" id="header-scroll-id">
+    <div class="header__container">
+        <div class="header__row">
+            <div class="header__col-1">
+                <div class="header__burger-wrap">
+                    <div class="burger">
+                        <div class="burger__line burger__line-1"></div>
+                        <div class="burger__line burger__line-2"></div>
+                        <div class="burger__line burger__line-3"></div>
+                    </div>
+                </div>
+                <div class="header__logo-wrap">
+                    <a class="header__logo" href="">
+                        <img class="header__logo-img" src="img/logo.svg" alt="">
+                    </a>
+                </div>
+                <div class="header__left-link-row">
+                        <div class="header__lang">
+                            <div class="select-lang">
+                                <div class="select-lang__active-wrap">
+                                    <div class="select-lang__active">RU</div>
+                                </div>
+                                <!-- <img src="img/lang-v.svg" alt=""> -->
+                                <div class="select-lang__select-content">
+                                    <div class="select-lang__select-link-wrap">
+                                        <a class="select-lang__select-link active" href="">RU</a>
+                                    </div>
+                                    <div class="select-lang__select-link-wrap">
+                                        <a class="select-lang__select-link" href="">EN</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <div class="header__page-links-wrap">
+                            <div class="header__page-links">
+                                <div class="header__page-link-item-wrap">
+                                    <a class="header__page-link-item" href="">Виллы</a>
+                                </div>
+                            </div>
+                        </div> -->
+                </div>
+                
+            </div>
+            <div class="header__col-2">
+                <div class="header__phone-wrap">
+                    <a class="header__phone" href="">
+                        <span class="header__phone-number">8 800 000 0000</span>
+                        <img  class="header__phone-icon" src="img/icon-whatsapp.svg" alt="">
+                    </a>
+                </div>
+                <div class="header__search">
+                    <div class="search-block">
+                        <form class="search-block__form-el" action="">
+                            <div class="search-block__row">
+                                <div class="search-block__inp-wrap">
+                                    <input class="search-block__inp" type="text" name="" id="" placeholder="Поиск по названию и ID">
+                                </div>
+                                <div class="search-block__btn-wrap">
+                                    <button class="search-block__btn">
+                                        <img class="search-block__btn-icon" src="img/icon-search.svg" alt="">
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+
+                    </div>
+                </div>
+                <div class="header__call-back">
+                    <button class="blue-btn" data-toggle="modal" data-target=".bd-example-modal-lg">
+                        <div class="blue-btn__bg">Забронировать</div>
+                    </button>
+                </div>
+            </div>
+            <div class="header__col-3">
+                <div class="header__mobile-phone-wrap">
+                    <a class="header__mobile-phone" href="">
+                        <svg class="header__mobile-phone-icon" width="24" height="24" viewBox="0 0 24 24" fill="#70848A" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M7.90925 16.0907C10.0365 18.218 14.7328 20.9998 16.9091 20.9998C17.8638 21.0096 18.7926 20.6892 19.5381 20.0928C20.2836 19.4964 20.8 18.6606 21 17.7271V16.0907C21 16.0907 18.9873 15.1089 17.7273 14.4544C16.4673 13.7999 14.4546 16.0907 14.4546 16.0907C12.9232 15.5919 11.5246 14.7527 10.3638 13.6362C9.2473 12.4754 8.40815 11.0768 7.90925 9.54537C7.90925 9.54537 10.2001 7.53267 9.5456 6.27269C8.89106 5.0127 7.90925 3 7.90925 3H6.27291C5.33936 3.19995 4.5036 3.71642 3.90719 4.46193C3.31078 5.20745 2.99037 6.13619 3.00022 7.09086C3.00022 9.2672 5.782 13.9635 7.90925 16.0907Z"/>
+                        </svg>
+                    </a>
+                </div>
+                <div class="header__mobile-callback-wrap">
+                    <a class="header__mobile-callback" href="" data-toggle="modal" data-target=".bd-example-modal-lg">
+                        <svg class="header__mobile-callback-icon" width="24" height="24" viewBox="0 0 24 24"  fill="#00A6D0" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M14.6519 11.4133V15.4194L13.3261 16.7452L14.6519 18.0711L13.3261 19.3969L14.6519 20.7227L12.4422 22.9324L10.2325 20.7227V11.4133C9.67205 11.1571 9.147 10.7984 8.68569 10.3371C6.61103 8.26243 6.61103 4.89874 8.68569 2.82408C10.7603 0.749417 14.124 0.749418 16.1987 2.82408C18.2734 4.89874 18.2734 8.26243 16.1987 10.3371C15.7374 10.7984 15.2123 11.1571 14.6519 11.4133ZM13.768 3.04505C13.0358 2.31282 11.8486 2.31282 11.1164 3.04505C10.3841 3.77728 10.3841 4.96447 11.1164 5.6967C11.8486 6.42893 13.0358 6.42893 13.768 5.6967C14.5003 4.96447 14.5003 3.77728 13.768 3.04505Z" />
+                        </svg>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+<div class="menu">
+    <div class="menu__top">
+        <div class="menu-lang">
+            <div class="menu-lang__item-wrap">
+                <a class="menu-lang__item" href="">en</a>
+            </div>
+            <div class="menu-lang__item-wrap">
+                <a class="menu-lang__item active" href="">ru</a>
+            </div>
+        </div>
+        <div class="menu__phone-block">
+            <a class="header__phone menu__phone" href="">
+                <span class="header__phone-number">8 800 000 0000</span>
+                <img class="header__phone-icon" src="img/icon-whatsapp.svg" alt="">
+            </a>
+        </div>
+    </div>
+    <div class="menu__box">
+        <div class="menu__links-scroll-wrapper">
+            <div class="menu__link-item-wrap">
+                <a class="menu__link-item" href="">Виллы</a>
+            </div>
+            <div class="menu__link-item-wrap">
+                <a class="menu__link-item active" href="">О компании</a>
+            </div>
+            <div class="menu__link-item-wrap">
+                <a class="menu__link-item" href="">Услуги</a>
+            </div>
+            <div class="menu__link-item-wrap">
+                <a class="menu__link-item" href="">Контакты</a>
+            </div>
+
+            <!-- <div class="menu__link-item-wrap">
+                <a class="menu__link-item" href="">Виллы2</a>
+            </div> -->
+
+        </div>
+    </div>
+    <div class="menu__bottom">
+        <div class="search-block menu__search">
+            <form class="search-block__form-el" action="">
+                <div class="search-block__row">
+                    <div class="search-block__inp-wrap">
+                        <input class="search-block__inp" type="text" name="" id="" placeholder="Поиск по названию и ID">
+                    </div>
+                    <div class="search-block__btn-wrap">
+                        <button class="search-block__btn">
+                            <img class="search-block__btn-icon" src="img/icon-search.svg" alt="">
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<div class="about-scr">
+    <div class="container">
+        <div class="row">
+
+            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                <div class="bread-block bread-block--card-product">
+                    <div class="breadcrumb bread-c">
+                        <a class="breadcrumb-item" href="/">Главная</a>
+                        <!-- <a class="breadcrumb-item" href="/">Каталог</a>
+                        <a class="breadcrumb-item" href="/">Искусственный камень</a> -->
+                        <span class="breadcrumb-item active">Услуги</span>
+                    </div>
+                </div>
+            </div>   
+            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                <div class="about-scr__title-wrap">
+                    <div class="catalog__title">Услуги</div>
+                </div>
+            </div>  
+        </div>
+    </div>
+</div>
+
+<div class="uslugi-scr">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                <div class="uslugi-scr__cards-b">
+                    <div class="row">   
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 uslugi-src__card-col">
+                            <div class="insta-item uslugi-scr__item">
+                                <div class="insta-item__photo-wrap">
+                                    <div class="insta-item__photo" style="background-image: url(img/insta-photo-13.jpg)"></div>
+                                </div>
+                                <div class="insta-item__box">
+                                    <div class="uslugi-cards-item__usl">
+                                        <div class="uslugi-cards-item__usl-name-wrap">
+                                            <div class="uslugi-cards-item__usl-name">Lorem ipsum dolor sit amet</div>
+                                        </div>
+                                        <div class="uslugi-cards-item__price-wrap">
+                                            <div class="uslugi-cards-item__price">
+                                                <span class="uslugi-cards-item__price-text">От</span><span class="uslugi-cards-item__price-num">1000
+                                                    €</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 uslugi-src__card-col">
+                            <div class="insta-item uslugi-scr__item">
+                                <div class="insta-item__photo-wrap">
+                                    <div class="insta-item__photo" style="background-image: url(img/insta-photo-11.jpg)"></div>
+                                </div>
+                                <div class="insta-item__box">
+                                    <div class="uslugi-cards-item__usl">
+                                        <div class="uslugi-cards-item__usl-name-wrap">
+                                            <div class="uslugi-cards-item__usl-name">Lorem ipsum dolor sit amet</div>
+                                        </div>
+                                        <div class="uslugi-cards-item__price-wrap">
+                                            <div class="uslugi-cards-item__price">
+                                                <span class="uslugi-cards-item__price-text">От</span><span class="uslugi-cards-item__price-num">1000
+                                                    €</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 uslugi-src__card-col">
+                            <div class="insta-item uslugi-scr__item">
+                                <div class="insta-item__photo-wrap">
+                                    <div class="insta-item__photo" style="background-image: url(img/insta-photo-12.jpg)"></div>
+                                </div>
+                                <div class="insta-item__box">
+                                    <div class="uslugi-cards-item__usl">
+                                        <div class="uslugi-cards-item__usl-name-wrap">
+                                            <div class="uslugi-cards-item__usl-name">Lorem ipsum dolor sit amet</div>
+                                        </div>
+                                        <div class="uslugi-cards-item__price-wrap">
+                                            <div class="uslugi-cards-item__price">
+                                                <span class="uslugi-cards-item__price-text">От</span><span class="uslugi-cards-item__price-num">1000
+                                                    €</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 uslugi-src__card-col">
+                            <div class="insta-item uslugi-scr__item">
+                                <div class="insta-item__photo-wrap">
+                                    <div class="insta-item__photo" style="background-image: url(img/insta-photo-8.jpg)"></div>
+                                </div>
+                                <div class="insta-item__box">
+                                    <div class="uslugi-cards-item__usl">
+                                        <div class="uslugi-cards-item__usl-name-wrap">
+                                            <div class="uslugi-cards-item__usl-name">Lorem ipsum dolor sit amet</div>
+                                        </div>
+                                        <div class="uslugi-cards-item__price-wrap">
+                                            <div class="uslugi-cards-item__price">
+                                                <span class="uslugi-cards-item__price-text">От</span><span class="uslugi-cards-item__price-num">1000
+                                                    €</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 uslugi-src__card-col">
+                            <div class="insta-item uslugi-scr__item">
+                                <div class="insta-item__photo-wrap">
+                                    <div class="insta-item__photo" style="background-image: url(img/insta-photo-9.jpg)"></div>
+                                </div>
+                                <div class="insta-item__box">
+                                    <div class="uslugi-cards-item__usl">
+                                        <div class="uslugi-cards-item__usl-name-wrap">
+                                            <div class="uslugi-cards-item__usl-name">Lorem ipsum dolor sit amet</div>
+                                        </div>
+                                        <div class="uslugi-cards-item__price-wrap">
+                                            <div class="uslugi-cards-item__price">
+                                                <span class="uslugi-cards-item__price-text">От</span><span class="uslugi-cards-item__price-num">1000
+                                                    €</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 uslugi-src__card-col">
+                            <div class="insta-item uslugi-scr__item">
+                                <div class="insta-item__photo-wrap">
+                                    <div class="insta-item__photo" style="background-image: url(img/insta-photo-10.jpg)"></div>
+                                </div>
+                                <div class="insta-item__box">
+                                    <div class="uslugi-cards-item__usl">
+                                        <div class="uslugi-cards-item__usl-name-wrap">
+                                            <div class="uslugi-cards-item__usl-name">Lorem ipsum dolor sit amet</div>
+                                        </div>
+                                        <div class="uslugi-cards-item__price-wrap">
+                                            <div class="uslugi-cards-item__price">
+                                                <span class="uslugi-cards-item__price-text">От</span><span class="uslugi-cards-item__price-num">1000
+                                                    €</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 uslugi-src__card-col">
+                            <div class="insta-item uslugi-scr__item">
+                                <div class="insta-item__photo-wrap">
+                                    <div class="insta-item__photo" style="background-image: url(img/insta-photo-14.jpg)"></div>
+                                </div>
+                                <div class="insta-item__box">
+                                    <div class="uslugi-cards-item__usl">
+                                        <div class="uslugi-cards-item__usl-name-wrap">
+                                            <div class="uslugi-cards-item__usl-name">Lorem ipsum dolor sit amet</div>
+                                        </div>
+                                        <div class="uslugi-cards-item__price-wrap">
+                                            <div class="uslugi-cards-item__price">
+                                                <span class="uslugi-cards-item__price-text">От</span><span class="uslugi-cards-item__price-num">1000
+                                                    €</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 uslugi-src__card-col">
+                            <div class="insta-item uslugi-scr__item">
+                                <div class="insta-item__photo-wrap">
+                                    <div class="insta-item__photo" style="background-image: url(img/insta-photo-15.jpg)"></div>
+                                </div>
+                                <div class="insta-item__box">
+                                    <div class="uslugi-cards-item__usl">
+                                        <div class="uslugi-cards-item__usl-name-wrap">
+                                            <div class="uslugi-cards-item__usl-name">Lorem ipsum dolor sit amet</div>
+                                        </div>
+                                        <div class="uslugi-cards-item__price-wrap">
+                                            <div class="uslugi-cards-item__price">
+                                                <span class="uslugi-cards-item__price-text">От</span><span class="uslugi-cards-item__price-num">1000
+                                                    €</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>  
+    <a class="back-top-btn back-top-btn--position-1" href="#header-scroll-id">
+        <div class="back-top-btn__bg">
+            <img class="back-top-btn__icon" src="img/back-top-icon.svg" alt="">
+        </div>
+    </a>
+</div>
+
+
+
+
+
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-7 col-lg-5 col-md-12 col-sm-12 col-12 footer__col-1">
+                <div class="footer__top-row-wrap">
+                    <div class="footer__top-row">
+                        <div class="footer__logo-wrap">
+                            <a class="footer__logo" href="">
+                                <img class="footer__logo-img" src="img/logo-footer.svg" alt="">
+                            </a>
+                        </div>
+                        <div class="footer__links-bl">
+                            <div class="footer__links-row">
+                                <div class="footer__link-item-wrap">
+                                    <a class="footer__link-item" href="">Виллы</a>
+                                </div>
+                                <div class="footer__link-item-wrap">
+                                    <a class="footer__link-item" href="">О компании</a>
+                                </div>
+                                <div class="footer__link-item-wrap">
+                                    <a class="footer__link-item" href="">Услуги</a>
+                                </div>
+                                <div class="footer__link-item-wrap">
+                                    <a class="footer__link-item" href="">Контакты</a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="footer__social-bl-wrap">
+                    <div class="footer__social-bl">
+                        <div class="footer__social-links-row">
+                            <div class="footer__social-link-item-wrap">
+                                <a class="footer__social-link-item" href="">
+                                    <svg class="footer__social-svg" width="24" height="24" viewBox="0 0 24 24" fill="#D6E4E8" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M11.9365 7.06885C8.97358 7.06885 6.51855 9.48155 6.51855 12.4868C6.51855 15.4921 8.93125 17.9048 11.9365 17.9048C14.9418 17.9048 17.3545 15.4498 17.3545 12.4868C17.3545 9.52387 14.8995 7.06885 11.9365 7.06885ZM11.9365 15.9577C10.0318 15.9577 8.46564 14.3916 8.46564 12.4868C8.46564 10.5821 10.0318 9.01594 11.9365 9.01594C13.8413 9.01594 15.4074 10.5821 15.4074 12.4868C15.4074 14.3916 13.8413 15.9577 11.9365 15.9577Z" />
+                                        <path d="M17.5661 8.16914C18.2441 8.16914 18.7937 7.61956 18.7937 6.94162C18.7937 6.26369 18.2441 5.71411 17.5661 5.71411C16.8882 5.71411 16.3386 6.26369 16.3386 6.94162C16.3386 7.61956 16.8882 8.16914 17.5661 8.16914Z"/>
+                                        <path d="M20.7408 3.76719C19.6403 2.62433 18.0741 2.03174 16.2964 2.03174H7.57678C3.89424 2.03174 1.43921 4.48676 1.43921 8.1693V16.8466C1.43921 18.6667 2.0318 20.2328 3.21699 21.3757C4.35984 22.4762 5.88365 23.0264 7.6191 23.0264H16.254C18.0741 23.0264 19.5979 22.4339 20.6985 21.3757C21.8413 20.2751 22.4339 18.709 22.4339 16.8889V8.1693C22.4339 6.39153 21.8413 4.86772 20.7408 3.76719ZM20.5715 16.8889C20.5715 18.2011 20.1059 19.2593 19.344 19.9788C18.5821 20.6984 17.5239 21.0794 16.254 21.0794H7.6191C6.34926 21.0794 5.29106 20.6984 4.52916 19.9788C3.76725 19.2169 3.3863 18.1587 3.3863 16.8466V8.1693C3.3863 6.89946 3.76725 5.84126 4.52916 5.07936C5.24873 4.35978 6.34926 3.97883 7.6191 3.97883H16.3387C17.6085 3.97883 18.6667 4.35978 19.4286 5.12169C20.1482 5.88359 20.5715 6.94179 20.5715 8.1693V16.8889Z"/>
+                                    </svg>
+                                </a>
+                            </div>
+                            <div class="footer__social-link-item-wrap">
+                                <a class="footer__social-link-item" href="">
+                                    <svg class="footer__social-svg" width="24" height="24" viewBox="0 0 24 24" fill="#D6E4E8" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M17.1154 9.20276H13.879V7.08017C13.879 6.28303 14.4073 6.09719 14.7794 6.09719C15.1507 6.09719 17.0633 6.09719 17.0633 6.09719V2.59284L13.918 2.58057C10.4263 2.58057 9.63172 5.19422 9.63172 6.86681V9.20276H7.61243V12.8138H9.63172C9.63172 17.448 9.63172 23.0318 9.63172 23.0318H13.879C13.879 23.0318 13.879 17.393 13.879 12.8138H16.745L17.1154 9.20276Z"/>
+                                    </svg>
+                                </a>
+                            </div>
+                            <div class="footer__social-link-item-wrap">
+                                <a class="footer__social-link-item" href="">
+                                    <svg class="footer__social-svg" width="24" height="24" viewBox="0 0 24 24" fill="#D6E4E8" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M21.5473 7.00008H18.2568C18.1225 7.00008 17.9907 7.0365 17.8755 7.10545C17.7602 7.1744 17.6658 7.2733 17.6023 7.39164C17.6023 7.39164 16.2899 9.80857 15.8684 10.6226C14.7343 12.8126 13.9999 12.1251 13.9999 11.1087V7.60425C13.9999 7.31141 13.8836 7.03056 13.6765 6.82349C13.4695 6.61642 13.1886 6.50008 12.8958 6.50008H10.4218C10.0849 6.47503 9.74712 6.53653 9.44066 6.67874C9.1342 6.82094 8.86918 7.03913 8.67077 7.31258C8.67077 7.31258 9.92703 7.10946 9.92703 8.80216C9.92703 9.2219 9.94865 10.4294 9.96835 11.4422C9.97206 11.5914 9.9299 11.7382 9.84754 11.8627C9.76518 11.9872 9.6466 12.0835 9.5078 12.1385C9.36901 12.1934 9.21668 12.2045 9.07139 12.1702C8.92611 12.1359 8.79485 12.0578 8.69535 11.9465C7.6827 10.5381 6.8439 9.01248 6.19715 7.40288C6.14161 7.28248 6.05269 7.18053 5.94095 7.10913C5.82921 7.03774 5.69934 6.99989 5.56674 7.00008C4.85314 7.00008 3.42516 7.00008 2.57713 7.00008C2.4949 6.99953 2.41376 7.01894 2.34068 7.05666C2.2676 7.09437 2.20478 7.14927 2.1576 7.21662C2.11042 7.28398 2.08029 7.36178 2.06981 7.44335C2.05934 7.52491 2.06882 7.6078 2.09744 7.68489C3.00523 10.175 6.9157 18.0001 11.3791 18.0001H13.2578C13.4546 18.0001 13.6434 17.9219 13.7826 17.7827C13.9217 17.6435 13.9999 17.4547 13.9999 17.2579V16.1235C13.9999 15.9812 14.0416 15.842 14.1197 15.7231C14.1979 15.6041 14.3091 15.5107 14.4397 15.4542C14.5703 15.3977 14.7146 15.3806 14.8548 15.4051C14.995 15.4296 15.1249 15.4946 15.2286 15.592L17.4772 17.7047C17.6792 17.8944 17.9458 18.0001 18.2229 18.0001H21.1758C22.5999 18.0001 22.5999 17.0118 21.8234 16.2471C21.277 15.709 19.3051 13.6305 19.3051 13.6305C19.1362 13.4556 19.0355 13.226 19.0212 12.9833C19.0068 12.7406 19.0797 12.5007 19.2267 12.3071C19.8641 11.4683 20.9066 10.0953 21.3487 9.50715C21.9531 8.70321 23.0468 7.00008 21.5473 7.00008Z"/>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-5 col-lg-7 col-md-12 col-sm-12 col-12 footer__col-2">
+                <div class="footer__right-block">
+                    <div class="footer__contacts">
+                        <div class="footer__contacts-row">
+                            <div class="footer__contacts-col-1">
+                                <div class="footer__contact-link-wrap">
+                                    <a class="footer__contact-link" href="">
+                                        <div class="footer__contact-link-icon-wrap">
+                                            <img class="footer__contact-link-icon" src="img/footer-location-icon.svg" alt="">
+                                        </div>
+                                        <div class="footer__contact-link-text-wrap">
+                                            <div class="footer__contact-link-text">Cyprus, Paphos, Danaes Ave 12, k3 t.k:8042</div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="footer__contact-link-wrap">
+                                    <a class="footer__contact-link" href="">
+                                        <div class="footer__contact-link-icon-wrap">
+                                            <img class="footer__contact-link-icon" src="img/footer-mail-icon.svg" alt="">
+                                        </div>
+                                        <div class="footer__contact-link-text-wrap">
+                                            <div class="footer__contact-link-text">info@beleontours.com</div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="footer__contacts-col-2">
+                                <div class="footer__contact-link-wrap">
+                                    <a class="footer__contact-link" href="">
+                                        <div class="footer__contact-link-icon-wrap">
+                                            <img class="footer__contact-link-icon" src="img/footer-phone-icon.svg" alt="">
+                                        </div>
+                                        <div class="footer__contact-link-text-wrap">
+                                            <div class="footer__contact-link-text">+ 357 95 191 444</div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="footer__contact-link-wrap">
+                                    <a class="footer__contact-link" href="">
+                                        <div class="footer__contact-link-icon-wrap">
+                                            <img class="footer__contact-link-icon" src="img/footer-phone-icon.svg" alt="">
+                                        </div>
+                                        <div class="footer__contact-link-text-wrap">
+                                            <div class="footer__contact-link-text">+ 357 95 191 444</div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="footer__contact-link-wrap">
+                                    <a class="footer__contact-link" href="">
+                                        <div class="footer__contact-link-icon-wrap">
+                                            <img class="footer__contact-link-icon" src="img/footer-phone-icon.svg" alt="">
+                                        </div>
+                                        <div class="footer__contact-link-text-wrap">
+                                            <div class="footer__contact-link-text">+ 357 95 191 444</div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer__mobile-social-bl-wrap">
+                    <div class="footer__social-bl">
+                        <div class="footer__social-links-row">
+                            <div class="footer__social-link-item-wrap">
+                                <a class="footer__social-link-item" href="">
+                                    <svg class="footer__social-svg" width="24" height="24" viewBox="0 0 24 24" fill="#D6E4E8" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M11.9365 7.06885C8.97358 7.06885 6.51855 9.48155 6.51855 12.4868C6.51855 15.4921 8.93125 17.9048 11.9365 17.9048C14.9418 17.9048 17.3545 15.4498 17.3545 12.4868C17.3545 9.52387 14.8995 7.06885 11.9365 7.06885ZM11.9365 15.9577C10.0318 15.9577 8.46564 14.3916 8.46564 12.4868C8.46564 10.5821 10.0318 9.01594 11.9365 9.01594C13.8413 9.01594 15.4074 10.5821 15.4074 12.4868C15.4074 14.3916 13.8413 15.9577 11.9365 15.9577Z" />
+                                        <path d="M17.5661 8.16914C18.2441 8.16914 18.7937 7.61956 18.7937 6.94162C18.7937 6.26369 18.2441 5.71411 17.5661 5.71411C16.8882 5.71411 16.3386 6.26369 16.3386 6.94162C16.3386 7.61956 16.8882 8.16914 17.5661 8.16914Z"/>
+                                        <path d="M20.7408 3.76719C19.6403 2.62433 18.0741 2.03174 16.2964 2.03174H7.57678C3.89424 2.03174 1.43921 4.48676 1.43921 8.1693V16.8466C1.43921 18.6667 2.0318 20.2328 3.21699 21.3757C4.35984 22.4762 5.88365 23.0264 7.6191 23.0264H16.254C18.0741 23.0264 19.5979 22.4339 20.6985 21.3757C21.8413 20.2751 22.4339 18.709 22.4339 16.8889V8.1693C22.4339 6.39153 21.8413 4.86772 20.7408 3.76719ZM20.5715 16.8889C20.5715 18.2011 20.1059 19.2593 19.344 19.9788C18.5821 20.6984 17.5239 21.0794 16.254 21.0794H7.6191C6.34926 21.0794 5.29106 20.6984 4.52916 19.9788C3.76725 19.2169 3.3863 18.1587 3.3863 16.8466V8.1693C3.3863 6.89946 3.76725 5.84126 4.52916 5.07936C5.24873 4.35978 6.34926 3.97883 7.6191 3.97883H16.3387C17.6085 3.97883 18.6667 4.35978 19.4286 5.12169C20.1482 5.88359 20.5715 6.94179 20.5715 8.1693V16.8889Z"/>
+                                    </svg>
+                                </a>
+                            </div>
+                            <div class="footer__social-link-item-wrap">
+                                <a class="footer__social-link-item" href="">
+                                    <svg class="footer__social-svg" width="24" height="24" viewBox="0 0 24 24" fill="#D6E4E8" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M17.1154 9.20276H13.879V7.08017C13.879 6.28303 14.4073 6.09719 14.7794 6.09719C15.1507 6.09719 17.0633 6.09719 17.0633 6.09719V2.59284L13.918 2.58057C10.4263 2.58057 9.63172 5.19422 9.63172 6.86681V9.20276H7.61243V12.8138H9.63172C9.63172 17.448 9.63172 23.0318 9.63172 23.0318H13.879C13.879 23.0318 13.879 17.393 13.879 12.8138H16.745L17.1154 9.20276Z"/>
+                                    </svg>
+                                </a>
+                            </div>
+                            <div class="footer__social-link-item-wrap">
+                                <a class="footer__social-link-item" href="">
+                                    <svg class="footer__social-svg" width="24" height="24" viewBox="0 0 24 24" fill="#D6E4E8" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M21.5473 7.00008H18.2568C18.1225 7.00008 17.9907 7.0365 17.8755 7.10545C17.7602 7.1744 17.6658 7.2733 17.6023 7.39164C17.6023 7.39164 16.2899 9.80857 15.8684 10.6226C14.7343 12.8126 13.9999 12.1251 13.9999 11.1087V7.60425C13.9999 7.31141 13.8836 7.03056 13.6765 6.82349C13.4695 6.61642 13.1886 6.50008 12.8958 6.50008H10.4218C10.0849 6.47503 9.74712 6.53653 9.44066 6.67874C9.1342 6.82094 8.86918 7.03913 8.67077 7.31258C8.67077 7.31258 9.92703 7.10946 9.92703 8.80216C9.92703 9.2219 9.94865 10.4294 9.96835 11.4422C9.97206 11.5914 9.9299 11.7382 9.84754 11.8627C9.76518 11.9872 9.6466 12.0835 9.5078 12.1385C9.36901 12.1934 9.21668 12.2045 9.07139 12.1702C8.92611 12.1359 8.79485 12.0578 8.69535 11.9465C7.6827 10.5381 6.8439 9.01248 6.19715 7.40288C6.14161 7.28248 6.05269 7.18053 5.94095 7.10913C5.82921 7.03774 5.69934 6.99989 5.56674 7.00008C4.85314 7.00008 3.42516 7.00008 2.57713 7.00008C2.4949 6.99953 2.41376 7.01894 2.34068 7.05666C2.2676 7.09437 2.20478 7.14927 2.1576 7.21662C2.11042 7.28398 2.08029 7.36178 2.06981 7.44335C2.05934 7.52491 2.06882 7.6078 2.09744 7.68489C3.00523 10.175 6.9157 18.0001 11.3791 18.0001H13.2578C13.4546 18.0001 13.6434 17.9219 13.7826 17.7827C13.9217 17.6435 13.9999 17.4547 13.9999 17.2579V16.1235C13.9999 15.9812 14.0416 15.842 14.1197 15.7231C14.1979 15.6041 14.3091 15.5107 14.4397 15.4542C14.5703 15.3977 14.7146 15.3806 14.8548 15.4051C14.995 15.4296 15.1249 15.4946 15.2286 15.592L17.4772 17.7047C17.6792 17.8944 17.9458 18.0001 18.2229 18.0001H21.1758C22.5999 18.0001 22.5999 17.0118 21.8234 16.2471C21.277 15.709 19.3051 13.6305 19.3051 13.6305C19.1362 13.4556 19.0355 13.226 19.0212 12.9833C19.0068 12.7406 19.0797 12.5007 19.2267 12.3071C19.8641 11.4683 20.9066 10.0953 21.3487 9.50715C21.9531 8.70321 23.0468 7.00008 21.5473 7.00008Z"/>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 footer__col-3">
+                <div class="footer__bottom">
+                    <div class="footer__bottom-row">
+                        <div class="footer__bottom-col-1">
+                            <div class="footer__copyright-wrap">
+                                <div class="footer__copyright">
+                                    © 2018. Beleon Tours. All rights reserved
+                                </div>
+                            </div>
+                            <div class="footer__privacy">
+                                <a class="footer__privacy-link" href="">Политика конфиденциальности</a>
+                            </div>
+                        </div>
+                        <div class="footer__bottom-col-2">
+                            <div class="footer__producted">
+                                <a rel="nofollow" target="_blank" href="http://labsales.ru/" class="ncr"><span>Сделано в</span><img src="img/copyright-w.svg" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<button class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg">test-modal</button>
+
+<div class="modal fade bd-example-modal-lg modal-wht" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-wht__dialog">
+        <div class="modal-content modal-wht__content">
+            <div class="modal-wht__border">
+                <form class="modal-wht__form" action="">
+                    <button type="button" class="modal-wht__close" data-dismiss="modal" aria-label="Close">
+                        <img class="modal-wht__close-icon" src="img/modal-wht-close-icon.svg" alt="">
+                    </button>
+                    <div class="modal-wht__title-wrap">
+                        <div class="std__h modal-wht__title">Booking</div>
+                    </div>
+                    <div class="modal-wht__inp-block">
+                        <div class="modal-wht__row">
+                            <div class="modal-wht__col">
+                                <div class="modal-wht__input-wrap">
+                                    <input class="modal-wht-input" type="text" name="" id="" placeholder="Your name*">
+                                </div>
+                            </div>
+                            <div class="modal-wht__col">
+                                <div class="modal-wht__input-wrap">
+                                    <input class="modal-wht-input" type="text" name="" id="" placeholder="Your phone*">
+                                </div>
+                            </div>
+                            <div class="modal-wht__col">
+                                <div class="modal-wht__input-wrap">
+                                    <input class="modal-wht-input" type="text" name="" id="" placeholder="Your E-mail">
+                                </div>
+                            </div>
+                            <div class="modal-wht__col-100">
+                                <div class="modal-wht__input-wrap modal-wht__textarea-wrap">
+                                    <!-- <input class="modal-wht-input modal-wht__textarea" type="text" name="" id="" placeholder="Message"> -->
+                                    <textarea class="modal-wht-input modal-wht__textarea" name="" id="" cols="" rows=""  placeholder="Message"></textarea>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-wht__privacy-line">
+                        <div class="modal-wht__privacy-col">
+                            <div class="modal-wht__privacy">
+                                <div class="modal-wht__checkbox-wrap">
+                                    <div class="fti-checkbox modal-wht__checkbox">
+                                        <input class="fti-checkbox__check-real" type="checkbox" name="" id="fti-checkbox-privacy-modal-001" checked>
+                                        <label class="fti-checkbox__label-real" for="fti-checkbox-privacy-modal-001">
+                                            <div class="fti-checkbox__check-wrap">
+                                                <div class="fti-checkbox__check">
+                                                    <div class="fti-checkbox__check-v"></div>
+                                                </div>
+                                            </div>
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="modal-wht__privacy-link-wrap">
+                                    <a class="modal-wht__privacy-link" href="">Privacy policy</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-wht__captacha-col">
+                            <div class="modal-wht__captacha-block">
+                                <img class="modal-wht__captacha-img" src="img/captcha-image.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-wht__btn-block">
+                        <button class="blue-btn modal-wht__btn">
+                            <div class="blue-btn__bg">send</div>
+                        </button>
+                    </div>
+                    <!-- <div class="modal-wht__border"></div> -->
+                    <!-- <div class="modal-wht__">11</div> -->
+                </form>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+<script type="text/javascript" src="js/tether.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/modernizr-custom.js"></script>
+<script type="text/javascript" src="swiper/swiper.min.js"></script>
+<!-- <script type="text/javascript" src="js/min/skrollr.min.js"></script> -->
+<!-- <script type="text/javascript" src="textfield/mdlComponentHandler.js"></script> -->
+<!-- <script type="text/javascript" src="textfield/textfield.js"></script> -->
+<!-- <script type="text/javascript" src="js/smooth-scrollbar.js"></script> -->
+
+<script type="text/javascript" src="js/min/script.min.js"></script>
+<script type="text/javascript" src="js/min/dg.min.js"></script>
+
+
+
+</body>
+</html>
+
